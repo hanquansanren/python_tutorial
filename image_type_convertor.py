@@ -14,7 +14,6 @@ DEVICE = main_device
 cv2_img = cv2.imread('./test.png', flags=cv2.IMREAD_COLOR) # 输出为ndarray类
 '''
 第二个参数表示加载的图像是什么类型，支持常见的三个参数值。可以直接使用数字来代替（1，0，-1），默认值为IMREAD_UNCHANDED.
-
  IMREAD_UNCHANDED(<0) 表示加载原图，不做任何改变 , 包括alpha通道，可以直接写-1
  IMREAD_GRAYSCALE(0) 表示把原图作为灰度图像加载进来。
  IMREAD_COLOR(>0) 表示默认参数，读入一副彩色图片，忽略alpha通道
